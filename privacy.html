@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kendime – Gizlilik politikası</title>
+<title>Notik – Gizlilik politikası / Privacy policy</title>
 <style>
 body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;max-width:720px;margin:0 auto;padding:32px 20px;line-height:1.6;color:#1d2433;background:#f6f7fb}
 h1{font-size:1.8rem}
@@ -14,20 +14,25 @@ a{color:#2f5bd3}
 </style>
 </head>
 <body>
-<p><a href="index.html">← Kendime</a></p>
+<p><a href="index.html">← Notik</a></p>
 <h1>Gizlilik politikası</h1>
-<p class="muted">Son güncelleme: 19 Kasım 2026</p>
+<p class="muted">Son güncelleme: 19 Kasım 2026 · Last updated: 19 November 2026</p>
 
 <div class="card">
 <h2>Kısaca</h2>
-<p>Kendime notlarını telefonunda saklar. Geliştiricinin bir sunucusu yoktur; notların, fotoğrafların ve ayarların geliştiriciye ya da başka birine gönderilmez. Reklam, analiz ya da takip aracı kullanılmaz.</p>
+<p>Notik notlarını telefonunda saklar. Geliştiricinin bir sunucusu yoktur; notların, fotoğrafların ve ayarların geliştiriciye ya da başka birine gönderilmez. Reklam, analiz ya da takip aracı kullanılmaz.</p>
 
 <h2>Telefonda saklananlar</h2>
 <p>Yazdığın notlar, eklediğin fotoğraflar, hatırlatmalar ve uygulama ayarları yalnızca telefonundaki uygulama alanında durur. Uygulamayı silersen bunlar da silinir.</p>
 
 <h2>Google Drive yedeği (isteğe bağlı)</h2>
-<p>Yedeklemeyi açarsan Kendime, Google hesabınla giriş yapmanı ister ve yalnızca <code>drive.appdata</code> iznini kullanır. Bu izinle uygulama, Drive'ında sadece kendisine ayrılmış gizli bir klasöre yedek dosyası yazıp okuyabilir; Drive'ındaki diğer dosyalarını göremez, okuyamaz ve değiştiremez. Yedek senin Google hesabında durur, geliştiriciye ulaşmaz. Yedeği istediğin zaman uygulamadan ya da Google Drive ayarlarındaki "Uygulamaları yönet" bölümünden silebilirsin.</p>
-<p>Kendime'nin Google API'lerinden aldığı bilgileri kullanma ve başka uygulamalara aktarma biçimi, Sınırlı Kullanım (Limited Use) şartları dahil olmak üzere <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Hizmetleri Kullanıcı Verileri Politikası</a>'na uyar.</p>
+<p>Yedeklemeyi açarsan Notik, Google hesabınla giriş yapmanı ister ve iki dar izin kullanır:</p>
+<ul>
+<li><code>drive.file</code>: Drive'ının en üstünde bir <b>"Notik"</b> klasörü açar; notların <code>notik-yedek.json</code> dosyasına, fotoğrafların içindeki "Fotoğraflar" klasörüne kaydedilir. Bu izinle uygulama yalnızca kendi oluşturduğu bu dosyaları görebilir; Drive'ındaki diğer dosyalarını göremez, okuyamaz ve değiştiremez.</li>
+<li><code>drive.appdata</code>: yalnızca uygulamanın eski sürümünün gizli uygulama klasörüne yazdığı yedeği bulup Notik klasörüne taşımak ve sonra silmek için.</li>
+</ul>
+<p>Yedek senin Google hesabında durur, geliştiriciye ulaşmaz. Notik klasörünü istediğin zaman Drive'dan silebilirsin. Drive'ında yer azalınca ya da dolunca uygulama seni uyarır.</p>
+<p>Notik'in Google API'lerinden aldığı bilgileri kullanma ve başka uygulamalara aktarma biçimi, Sınırlı Kullanım (Limited Use) şartları dahil olmak üzere <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Hizmetleri Kullanıcı Verileri Politikası</a>'na uyar.</p>
 
 <h2>İnternet kullanımı</h2>
 <p>Kitap, film ve şarkı eklediğinde, kapak ve tür bilgisini bulmak için yalnızca eserin adı ve (yazdıysan) yazar/yönetmen adı şu herkese açık hizmetlere gönderilir: Wikipedia/Wikidata, Open Library ve Apple iTunes Arama. Bu özellik Ayarlar'dan kapatılabilir. Not içindeki bir bağlantıya dokunduğunda ya da bir şarkıyı çaldığında ilgili site veya uygulama açılır.</p>
@@ -44,15 +49,22 @@ a{color:#2f5bd3}
 <p>Google Keep, Evernote ya da metin dosyalarından içe aktardığın notlar yalnızca telefonundaki uygulamaya kaydedilir.</p>
 
 <h2>Çocuklar</h2>
-<p>Kendime çocuklara yönelik değildir ve bilerek kimseden kişisel bilgi toplamaz.</p>
+<p>Notik çocuklara yönelik değildir ve bilerek kimseden kişisel bilgi toplamaz.</p>
 
 <h2>Değişiklikler ve iletişim</h2>
 <p>Bu politika değişirse güncel hali bu sayfada yayımlanır. Soruların için: <a href="mailto:nuritumturk@gmail.com">nuritumturk@gmail.com</a></p>
 </div>
 
-<div class="card">
-<h2>Privacy policy (English summary)</h2>
-<p>Kendime stores your notes, photos and settings only on your device. The developer runs no servers and collects no data; there are no ads, analytics or trackers. If you turn on Google Drive backup, the app uses only the <code>drive.appdata</code> scope to save and read its own backup file in a hidden app folder in your own Drive; it cannot see your other Drive files, and the backup never reaches the developer. Kendime's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. To find covers, only the title (and author/director, if entered) of a book, film or song is sent to Wikipedia/Wikidata, Open Library and iTunes Search; this can be turned off in Settings. Contact: nuritumturk@gmail.com</p>
+<div class="card" lang="en">
+<h2>Privacy policy (English)</h2>
+<p><b>In short.</b> Notik stores your notes, photos and settings only on your device. The developer runs no servers and collects no data; there are no ads, analytics or trackers.</p>
+<p><b>Google Drive backup (optional).</b> If you turn it on, Notik asks you to sign in with Google and uses two narrow scopes. <code>drive.file</code> creates a <b>"Notik"</b> folder at the top of your Drive; your notes are saved to <code>notik-yedek.json</code> and your photos to its "Fotoğraflar" folder. With this scope the app can only see the files it created; it cannot see, read or change any other file in your Drive. <code>drive.appdata</code> is used only to find a backup written by an older version of the app in its hidden app folder, move it into the Notik folder and then delete it. The backup stays in your Google account and never reaches the developer. You can delete the Notik folder from Drive at any time. The app warns you when your Drive is running out of space or is full.</p>
+<p>Notik's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<p><b>Internet.</b> To find covers and genres, only the title (and author/director, if you entered one) of a book, film or song is sent to the public services Wikipedia/Wikidata, Open Library and Apple iTunes Search. You can turn this off in Settings. Tapping a link or playing a song opens the related site or app.</p>
+<p><b>Permissions.</b> Notifications and alarms are used to show reminders on time. Camera and photos are used only when you add a photo. Speech recognition runs only when you start voice typing, using your phone's own service. Screen lock / fingerprint is used to open locked notes; your fingerprint data never reaches the app.</p>
+<p><b>Import.</b> Notes you import from Google Keep, Evernote or text files are stored only in the app on your phone.</p>
+<p><b>Children.</b> Notik is not directed at children and does not knowingly collect personal information from anyone.</p>
+<p><b>Changes and contact.</b> If this policy changes, the current version is published on this page. Questions: <a href="mailto:nuritumturk@gmail.com">nuritumturk@gmail.com</a></p>
 </div>
 </body>
 </html>
